@@ -7,14 +7,6 @@ Hello! I’m **Mohamed Salah Abozaid**, a student passionate about **Data Engine
 I enjoy turning raw data into actionable insights using Python, SQL, and visualization tools like Matplotlib, Seaborn, and Plotly.  
 Currently, I’m developing my skills to become a strong data engineer ready to work on real-world projects.
 
----
-
-## 🌐 Portfolio
-Check my live portfolio here:  
-[🔗 Open Portfolio](https://m-s-abozaid7.github.io/portfoliio/)
-
----
-
 ## 🛠 Skills
 
 ### Technical Skills
@@ -29,43 +21,8 @@ Check my live portfolio here:
 - Leadership, Adaptability
 
 ---
-
-## 💻 Projects
-
-### 1. Football24 Analysis
-A data analysis project for FIFA 24 players using Python and Jupyter Notebook with Seaborn & Matplotlib visualizations.  
-[GitHub Repository](https://github.com/M-S-Abozaid7/football24_analysis)  
-![Project Screenshot](Top_Nationalities.png)
-
-### 2. University System
-A simple Python OOP project to help Mansoura University students access learning materials easily.  
-[GitHub Repository](https://github.com/M-S-Abozaid7/Universty-system1)  
-![Project Screenshot](uni.png)
-
----
-
 ## 🎓 Education
 - Bachelor of Computer Science — Faculty of Computers and Information, Mansoura University (Expected 2027)
-
----
-
-## 📚 Courses & Learning
-- Python Course — Udemy  
-- Digital Egypt Pioneers Initiative (DEPI)  
-- YouTube Channels: [Elzero Web School](https://youtube.com/@elzerowebschool?si=cPfe9FxlFGE-B0fA), [Codezilla](https://youtube.com/@codezilla?si=VVSLxoCUDpz-xU9R), [ONS](https://youtube.com/@inesriahi?si=pFtdx4LUbCsSHlvy)
-
----
-
-## 🌍 Languages
-- Arabic — Native  
-- English — Good
-
----
-
-## 🎯 Goals
-- Deepen knowledge in Data Science & ML basics  
-- Build more end-to-end mini data projects (ETL → Analysis → Dashboard)
-
 ---
 
 ## 📫 Contact Me
@@ -73,4 +30,5 @@ A simple Python OOP project to help Mansoura University students access learning
 - GitHub: [M-S-Abozaid7](https://github.com/M-S-Abozaid7)  
 - LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/your-username)  
 - WhatsApp: [Chat Now](https://wa.me/201096240470)
+
 
