@@ -1,0 +1,245 @@
+:root {
+    --bg: #0f1724;
+    --card: #0b1220;
+    --accent: #06b6d4;
+    --muted: #94a3b8;
+    --text: #e6eef6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, ui-sans-serif, system-ui, Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(180deg, var(--bg), #071022);
+    color: var(--text);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 28px;
+}
+
+
+/* ✅ Navbar */
+
+.navbar {
+    background: var(--card);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navbar a {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: var(--accent);
+}
+
+
+/* ✅ Hero */
+
+.hero {
+    padding: 100px 0 60px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 6px 0;
+}
+
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    /* 👈 نزّلت الصورة شوية تحت */
+    border: 4px solid var(--accent);
+    display: block;
+    margin: 0 auto 18px;
+    box-shadow: 0 8px 24px rgba(6, 182, 212, 0.35);
+}
+
+.role {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.summary {
+    color: var(--muted);
+    max-width: 760px;
+    margin: 12px auto;
+}
+
+.buttons {
+    margin-top: 18px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* ✅ Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background: linear-gradient(90deg, var(--accent), #f97316);
+    color: #031022;
+}
+
+.btn.primary:hover {
+    transform: scale(1.05);
+}
+
+.btn.small {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+
+/* ✅ Sections */
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin: 28px 0;
+    background: var(--card);
+    padding: 18px;
+    border-radius: 12px;
+}
+
+
+/* ✅ Chips */
+
+.chips {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 14px;
+    padding: 0;
+}
+
+.chips li {
+    background: rgba(148, 163, 184, 0.08);
+    padding: 10px 14px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.chips li:hover {
+    background: rgba(6, 182, 212, 0.15);
+}
+
+
+/* ✅ Projects */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: rgba(148, 163, 184, 0.05);
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.meta {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+
+/* ✅ Contact */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text);
+}
+
+.contact-info p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* ✅ Footer */
+
+.footer {
+    text-align: center;
+    padding: 18px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+
+/* ✅ Mobile */
+
+@media(max-width:768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
