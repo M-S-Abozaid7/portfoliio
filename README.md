@@ -1,6 +1,5 @@
 # Mohamed Salah Abozaid — Portfolio
 
-![Portfolio Screenshot](photo_2025-08-22_05-37-29.jpg)
 
 ## 👋 About Me
 Hello! I’m **Mohamed Salah Abozaid**, a student passionate about **Data Engineering & Data Science**.  
@@ -30,5 +29,6 @@ Currently, I’m developing my skills to become a strong data engineer ready to 
 - GitHub: [M-S-Abozaid7](https://github.com/M-S-Abozaid7)  
 - LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/your-username)  
 - WhatsApp: [Chat Now](https://wa.me/201096240470)
+
 
 
