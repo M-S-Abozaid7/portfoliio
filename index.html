@@ -11,9 +11,12 @@
 </head>
 
 <body>
-    <!-- ✅ Navbar -->
     <nav class="navbar">
-        <div class="container">
+        <div class="container navbar-container">
+            <!-- شعار MSA -->
+            <div class="logo-msa">MSA</div>
+
+            <!-- القايمة -->
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
@@ -26,6 +29,9 @@
             </ul>
         </div>
     </nav>
+
+
+
 
     <!-- ✅ Hero Section -->
     <header class="hero">
@@ -62,30 +68,54 @@
         <!-- ✅ Skills -->
         <section id="skills">
             <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Programming -->
+                <div class="skills-card">
+                    <h3>Programming</h3>
+                    <ul class="chips">
+                        <li><i class="devicon-python-plain colored"></i> Python</li>
+                        <li><i class="fa-solid fa-cubes"></i> OOP</li>
+                        <li><i class="fa-solid fa-code"></i> Data Structures</li>
+                        <li><i class="fa-solid fa-diagram-project"></i> Algorithms</li>
+                        <li><i class="fa-solid fa-lightbulb"></i> Problem Solving</li>
+                    </ul>
+                </div>
 
-            <h3>Technical Skills</h3>
-            <ul class="chips">
-                <li><i class="devicon-python-plain colored"></i> Python</li>
-                <li><i class="devicon-cplusplus-plain colored"></i> OOP</li>
-                <li><i class="devicon-numpy-original colored"></i> NumPy</li>
-                <li><i class="devicon-pandas-original colored"></i> Pandas</li>
-                <li><i class="devicon-dataspell-plain colored"></i> Data Cleaning</li>
-                <li><i class="devicon-matplotlib-plain colored"></i> Matplotlib</li>
-                <li><i class="devicon-seaborn-plain colored"></i> Seaborn</li>
-                <li><i class="devicon-plotly-plain colored"></i> Data Visualization</li>
-                <li><i class="devicon-mysql-plain colored"></i> SQL</li>
-            </ul>
+                <!-- Data Engineering -->
+                <div class="skills-card">
+                    <h3>Data Engineering</h3>
+                    <ul class="chips">
+                        <li><i class="fa-solid fa-broom"></i> Data Cleaning</li>
+                        <li><i class="devicon-mysql-plain colored"></i> SQL</li>
+                        <li><i class="devicon-mongodb-plain colored"></i> NoSQL</li>
+                    </ul>
+                </div>
 
-            <h3>Soft Skills</h3>
-            <ul class="chips">
-                <li><i class="fa-solid fa-users"></i> Teamwork</li>
-                <li><i class="fa-solid fa-comments"></i> Communication</li>
-                <li><i class="fa-solid fa-lightbulb"></i> Problem Solving</li>
-                <li><i class="fa-solid fa-clock"></i> Time Management</li>
-                <li><i class="fa-solid fa-handshake"></i> Adaptability</li>
-                <li><i class="fa-solid fa-compass"></i> Leadership</li>
-            </ul>
+                <!-- Tools -->
+                <div class="skills-card">
+                    <h3>Tools</h3>
+                    <ul class="chips">
+                        <li><i class="devicon-pandas-original colored"></i> Pandas</li>
+                        <li><i class="devicon-numpy-original colored"></i> NumPy</li>
+                        <li><i class="devicon-matplotlib-plain colored"></i> Matplotlib</li>
+                        <li><i class="devicon-seaborn-plain colored"></i> Seaborn</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-card">
+                    <h3>Soft Skills</h3>
+                    <ul class="chips">
+                        <li><i class="fa-solid fa-users"></i> Teamwork</li>
+                        <li><i class="fa-solid fa-comments"></i> Communication</li>
+                        <li><i class="fa-solid fa-clock"></i> Time Management</li>
+                        <li><i class="fa-solid fa-handshake"></i> Adaptability</li>
+                        <li><i class="fa-solid fa-compass"></i> Leadership</li>
+                    </ul>
+                </div>
+            </div>
         </section>
+
 
         <!-- ✅ Projects -->
         <section id="projects">
@@ -119,7 +149,9 @@
         <section id="courses">
             <h2>Courses & Scholarship</h2>
             <ul>
-                <li>Python Course — Udemy</li>
+                <li> Udemy</li>
+                <li> Coursera</li>
+                <li> YouTube</li>
                 <li>Digital Egypt Pioneers Initiative (DEPI) </li>
             </ul>
         </section>
@@ -146,13 +178,8 @@
         <section id="contact">
             <h2>Contact</h2>
             <div class="contact-grid">
-                <form class="contact-form" action="mailto:mohamedsalah1156158@gmail.com" method="post" enctype="text/plain">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="btn primary">Send Message</button>
-                </form>
 
+                <!-- طرق التواصل -->
                 <div class="contact-info">
                     <p><i class="fa-solid fa-envelope"></i>
                         <a href="mailto:mohamedsalah1156158@gmail.com">mohamedsalah1156158@gmail.com</a>
@@ -169,6 +196,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
     <!-- ✅ Footer -->
